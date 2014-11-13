@@ -20,7 +20,7 @@ Usage
 - Make sure PredictionIO is running (bin/start-all.sh)
 - Create an app, save the app key.
 - In the created app, add an Item Recommendation Engine and save the name of the engine.
-- In predictionIO.R, update the following variables: appkey, url, itemrecEngine.
+- In predictionio.R, update the following variables: appkey, url, itemrecEngine.
 - In R, set your current working directory to the location of this repository
 - Make sure the file 'jester-data-1.csv' is in your current working directory
 - Open and source import.R, this starts the import process
@@ -30,11 +30,11 @@ Usage
 Example demo output
 ===================
 
-# Get the top 5 recommendations for user 2
+\# Get the top 5 recommendations for user 2
 top5rec <- getTopNRecommendation(2, 5)
-# [1] 77 76 67 43 34
+\# [1] 77 76 67 43 34
 
 jokes[77]
-#                                                                           Joke 77 
-# "If pro- is the opposite of con- then congress must be the opposite of progress." 
+\#                                                                           Joke 77 
+\# "If pro- is the opposite of con- then congress must be the opposite of progress." 
 
