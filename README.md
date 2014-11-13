@@ -5,6 +5,10 @@ Tech demo of using PredictionIO, R and the Jester Collaborative Filtering datase
 
 Note: this is a tech demo and no extensive tutorial. Some basic knowledge of PredictionIO and R are necessary.
 
+More information about PredictionIO and the Jester dataset:
+- PredictionIO: http://prediction.io/
+- Jester dataset: http://eigentaste.berkeley.edu/dataset/
+
 Dependencies
 ============
 
