@@ -30,6 +30,7 @@ Usage
 Example demo output
 ===================
 
+```
 \# Get the top 5 recommendations for user 2
 top5rec <- getTopNRecommendation(2, 5)
 \# [1] 77 76 67 43 34
@@ -37,4 +38,4 @@ top5rec <- getTopNRecommendation(2, 5)
 jokes[77]
 \#                                                                           Joke 77 
 \# "If pro- is the opposite of con- then congress must be the opposite of progress." 
-
+```
